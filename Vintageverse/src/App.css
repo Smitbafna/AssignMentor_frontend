@@ -1,0 +1,37 @@
+/* src/TopBar.css */
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34; /* Background color for the top bar */
+  color: white; /* Text color */
+}
+
+.title {
+  margin: 0;
+  font-size: 24px; /* Font size for the title */
+}
+
+.buttons {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.action-button,
+.profile-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #61dafb; /* Button background color */
+  color: black; /* Button text color */
+  transition: background-color 0.3s;
+}
+
+.action-button:hover,
+.profile-button:hover {
+  background-color: #21a1f1; /* Change background on hover */
+}
+
