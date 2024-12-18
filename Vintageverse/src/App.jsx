@@ -10,14 +10,15 @@ import { DashboardLayout } from '@toolpad/core/DashboardLayout';
 import { PageContainer } from '@toolpad/core/PageContainer';
 import Grid from '@mui/material/Grid';
 import Skeleton from '@mui/material/Skeleton';
-import Signinwithbg from './SignIn/Signinwithbg';
-import OAuthSignInwithbg from './SignIn/OAuthSignInwithbg';
-import Orgselect from './OrgSelect/Orgselect';
-import Dashboard from './Org/Dashboard';
-import LandingPagewithbg from './LandingPage/LandingPagewithbg';
+import Signinwithbg from './components/SignIn/Signinwithbg';
+import OAuthSignInwithbg from './components/SignIn/OAuthSignInwithbg';
+import Orgselect from './components/OrgSelect/Orgselect';
+import Dashboard from './components/Org/Dashboard';
+import LandingPagewithbg from './components/LandingPage/LandingPagewithbg';
 import { Box } from '@mui/material';
-import DashboardLayoutSidebarHidden from'./LandingPage/LandingPagewithbg'
+import DashboardLayoutSidebarHidden from'./components/LandingPage/LandingPagewithbg'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 const router = createBrowserRouter(
   [{
     path:"/",

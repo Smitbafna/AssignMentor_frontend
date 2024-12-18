@@ -12,6 +12,7 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Box } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ToolpadDialogsNoSnap from './Deletebutton';
 export default function SubtaskAccordion() {
   return (
     <div>
@@ -32,7 +33,7 @@ export default function SubtaskAccordion() {
           <Button>Cancel</Button>
           <Tooltip title="Delete">
       <IconButton>
-        <DeleteIcon />
+        <ToolpadDialogsNoSnap />
       </IconButton>
     </Tooltip>
         </AccordionActions>
